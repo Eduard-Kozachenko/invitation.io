@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list {
+}
+.block {
+  display: flex;
+  .time {
+    font-size: 18px;
+    flex: 1;
+    border: 1px solid;
+  }
+  .infoBlock {
+    flex: 2;
+    border: 1px solid;
+  }
+  .infoTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: 15px;
+  }
+}
