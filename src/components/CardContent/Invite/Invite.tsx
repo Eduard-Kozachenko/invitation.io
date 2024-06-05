@@ -13,8 +13,6 @@ const Invite: React.FC<InviteProps> = () => {
         радость этого незабываемого дня.
       </span>
       <div className={scss.img} />
-      <span className={scss.endText}>Ждем Вас</span>
-      <span className={scss.endText}>Ваши Жених и Невеста</span>
     </div>
   );
 };

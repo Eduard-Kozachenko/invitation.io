@@ -43,3 +43,18 @@ body {
   font-family: Ariston;
   src: url("../fonts/ariston_normal.ttf");
 }
+
+@font-face {
+  font-family: Annabelle;
+  src: url("../fonts/Annabelle\ Cyr.ttf");
+}
+
+@font-face {
+  font-family: Neolost Personal Use;
+  src: url("../fonts/NeolostPersonalUse-4nBPB.otf");
+}
+
+@font-face {
+  font-family: New Rome Trial;
+  src: url("../fonts/NewRomeTrial-Light.ttf");
+}

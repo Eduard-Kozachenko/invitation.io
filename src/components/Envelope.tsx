@@ -16,12 +16,12 @@ const Envelope: React.FC = () => {
       setTimeout(() => {
         setIsLetterOpen(false);
         letterOverlay.classList.remove(scss.zoomOut);
-        const letterEnvelope = document.querySelector(
-          `.${scss.letterEnvelope}`
-        ) as HTMLElement | null;
-        if (letterEnvelope) {
-          letterEnvelope.style.transform = "none";
-        }
+        // const letterEnvelope = document.querySelector(
+        //   `.${scss.letterEnvelope}`
+        // ) as HTMLElement | null;
+        // if (letterEnvelope) {
+        //   letterEnvelope.style.transform = "none";
+        // }
       }, 500);
     }
   }, []);
@@ -35,17 +35,14 @@ const Envelope: React.FC = () => {
         <div className={`${scss.letterEnvelope}`}>
           <p>Hello</p>
         </div>
-        {isLetterOpen && (
-          <div className={scss.letterOverlay} onClick={handleClose}>
-            <div
-              className={`${scss.letter} ${scss.zoomIn}`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <CardContent />
-            </div>
-          </div>
-        )}
       </div>
+      {isLetterOpen && (
+        <div className={scss.letterOverlay} onClick={handleClose}>
+          <div className={`${scss.letter} ${scss.zoomIn}`}>
+            <CardContent />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

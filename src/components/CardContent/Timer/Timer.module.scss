@@ -1,8 +1,11 @@
 .timer {
   display: flex;
   flex-direction: column;
-  font-family: Arial, sans-serif;
+  font-family: New Rome Trial;
+  font-weight: 700;
+  font-size: 17px;
   margin-bottom: 40px;
+
   .title {
   }
   .day {
@@ -28,6 +31,7 @@
   transition: transform 0.3s ease;
   margin: 0 10px;
   padding: 10px;
+  font-family: New Rome Trial;
 
   &:hover {
     transform: translateY(-5px);
@@ -38,10 +42,6 @@
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    &:nth-child(2) {
-      font-size: 18px;
-      color: #666;
-    }
   }
 
   @media (max-width: 768px) {
@@ -50,10 +50,10 @@
     margin: 0 5px;
     padding: 5px;
     span {
-      font-size: 18px;
+      font-size: 28px;
+      font-weight: 700;
       &:nth-child(2) {
         font-size: 12px;
-        color: #666;
       }
     }
   }

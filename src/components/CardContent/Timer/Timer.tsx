@@ -63,7 +63,7 @@ const Timer: React.FC<TimerProps> = ({ targetDate = tDate }) => {
 
   return (
     <div className={scss.timer}>
-      <div className={scss.title}>Пришлашаем на свадьбу</div>
+      <div className={scss.title}>Приглашаем на свадьбу</div>
       <div className={scss.day}>
         июль <span>22</span> понедельник
       </div>

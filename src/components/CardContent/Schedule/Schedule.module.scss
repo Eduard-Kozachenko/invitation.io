@@ -1,33 +1,38 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  margin-bottom: 40px;
 }
 
 .title {
-  font-size: 28px;
+  font-size: 21px;
   margin-bottom: 20px;
   text-align: center;
+  font-family: Neolost Personal Use;
 }
 
 .list {
 }
 .block {
   display: flex;
+  margin-bottom: 20px;
   .time {
-    font-size: 18px;
     flex: 1;
-    border: 1px solid;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: New Rome Trial;
   }
   .infoBlock {
     flex: 2;
-    border: 1px solid;
   }
   .infoTitle {
     font-size: 18px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: New Rome Trial;
+    margin-bottom: 5px;
   }
   span {
-    font-size: 15px;
+    font-size: 13px;
+    font-family: New Rome Trial;
   }
 }

@@ -10,22 +10,20 @@ interface CardContentProps {}
 const CardContent: React.FC<CardContentProps> = () => {
   return (
     <div className={scss.wrapper}>
-      <div>
-        <div
-          // src="../../assets/img/27946.jpg"
-          style={{
-            background:
-              'url("../../assets/img/27946.jpg") center/cover no-repeat',
-            width: "100%",
-            height: 300,
-          }}
-        />
+      <div className={scss.header}>
+        <div className={scss.headerImg} />
+        <div className={scss.title}>
+          Эдуард
+          <br /> &
+          <br /> Наталья
+        </div>
       </div>
-      <div className={scss.title}>Эдуард & Наталья</div>
       <Invite />
       <Timer />
       <Schedule />
       <YandexMap />
+      <span className={scss.endText}>Ждем Вас</span>
+      <span className={scss.endText}>Ваши Жених и Невеста</span>
     </div>
   );
 };

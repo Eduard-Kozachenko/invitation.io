@@ -8,12 +8,13 @@
 
 .title {
   font-size: 28px;
+  font-family: Annabelle;
   margin-bottom: 20px;
 }
 
 .inviteText {
-  font-family: Ariston;
-  font-size: 25px;
+  font-family: Annabelle;
+  font-size: 21px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -21,12 +22,5 @@
 .img {
   width: 100%;
   height: 320px;
-  margin-bottom: 40px;
   background: url("../../../assets/img/letter.jpg") center/cover no-repeat;
-}
-
-.endText {
-  font-size: 32px;
-  text-align: center;
-  line-height: 38px;
 }
