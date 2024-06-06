@@ -1,5 +1,6 @@
 import React from "react";
 import scss from "./Invite.module.scss";
+import letterImg from "../../../assets/img/letter.jpg";
 
 interface InviteProps {}
 
@@ -12,7 +13,9 @@ const Invite: React.FC<InviteProps> = () => {
         нашей жизни - день нашей свадьбы! Приглашаем Вас разделить с нами
         радость этого незабываемого дня.
       </span>
-      <div className={scss.img} />
+      <div className={scss.imgContainer}>
+        <img src={letterImg} alt="letter" />
+      </div>
     </div>
   );
 };

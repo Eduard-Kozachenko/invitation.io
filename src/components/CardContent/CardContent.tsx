@@ -1,5 +1,6 @@
 import React from "react";
 import scss from "./CardContent.module.scss";
+import Header from "./Header/Header";
 import Invite from "./Invite/Invite";
 import Timer from "./Timer/Timer";
 import Schedule from "./Schedule/Schedule";
@@ -10,14 +11,7 @@ interface CardContentProps {}
 const CardContent: React.FC<CardContentProps> = () => {
   return (
     <div className={scss.wrapper}>
-      <div className={scss.header}>
-        <div className={scss.headerImg} />
-        <div className={scss.title}>
-          Эдуард
-          <br /> &
-          <br /> Наталья
-        </div>
-      </div>
+      <Header />
       <Invite />
       <Timer />
       <Schedule />
