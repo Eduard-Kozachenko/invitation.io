@@ -4,14 +4,12 @@ interface TypewriterProps extends React.HTMLProps<HTMLSpanElement> {
   text: string;
   delay: number;
   infinite?: boolean;
-  startDelay?: number;
 }
 
 const Typewriter: React.FC<TypewriterProps> = ({
   text,
   delay,
   infinite,
-  startDelay,
   ...props
 }) => {
   const [currentText, setCurrentText] = useState("");
@@ -34,7 +32,6 @@ const Typewriter: React.FC<TypewriterProps> = ({
         clearTimeout(timeoutRef.current);
       }
     }
-
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
