@@ -1,6 +1,6 @@
 import React from "react";
 import scss from "./Header.module.scss";
-import headerImg from "../../../assets/img/letter-header.png";
+import headerImg from "../../assets/img/letter-header.png";
 
 interface HeaderProps {}
 

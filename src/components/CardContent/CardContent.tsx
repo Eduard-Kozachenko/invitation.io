@@ -1,10 +1,10 @@
 import React from "react";
 import scss from "./CardContent.module.scss";
-import Header from "./Header/Header";
-import Invite from "./Invite/Invite";
-import Timer from "./Timer/Timer";
-import Schedule from "./Schedule/Schedule";
-import YandexMap from "./Map/YandexMap";
+import Header from "../Header/Header";
+import Invite from "../Invite/Invite";
+import Timer from "../Timer/Timer";
+import Schedule from "../Schedule/Schedule";
+import YandexMap from "../Map/YandexMap";
 
 interface CardContentProps {}
 

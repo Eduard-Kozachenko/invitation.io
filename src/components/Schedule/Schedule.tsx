@@ -1,6 +1,6 @@
 import React from "react";
 import scss from "./Schedule.module.scss";
-import { scheduleList } from "../../../constants/scheduleList";
+import { scheduleList } from "../../constants/scheduleList";
 
 interface ScheduleProps {}
 
