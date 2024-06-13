@@ -10,6 +10,9 @@
   font-weight: 600;
   text-align: center;
   font-family: Neolost Personal Use;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
 }
 
 .list {
@@ -35,5 +38,17 @@
   span {
     font-size: 13px;
     font-family: New Rome Trial;
+  }
+  @media (min-width: 768px) {
+    .time {
+      font-size: 21px;
+    }
+    .infoTitle {
+      font-size: 21px;
+    }
+    span {
+      font-size: 15px;
+      font-family: New Rome Trial;
+    }
   }
 }

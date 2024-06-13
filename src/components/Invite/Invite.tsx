@@ -20,8 +20,10 @@ const Invite: React.FC<InviteProps> = () => {
         startDelay={2000}
         className={scss.inviteText}
       />
-      <div className={scss.imgContainer}>
-        <img src={letterImg} alt="letter" />
+      <div className={scss.imgWrapper}>
+        <div className={scss.imgContainer}>
+          <img src={letterImg} alt="letter" />
+        </div>
       </div>
     </div>
   );

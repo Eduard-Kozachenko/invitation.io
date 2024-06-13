@@ -33,7 +33,8 @@ const Envelope: React.FC = () => {
         <div className={`${scss.lid} ${scss.two}`}></div>
         <div className={scss.envelope} />
         <div className={`${scss.letterEnvelope}`}>
-          <p>Hello</p>
+          <p>Пригласительное письмо</p>
+          <span>что бы прочитать нажмите на письмо</span>
         </div>
       </div>
       {isLetterOpen && (

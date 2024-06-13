@@ -11,9 +11,9 @@ const Header: React.FC<HeaderProps> = () => {
         <img src={headerImg} alt="" />
       </div>
       <div className={scss.title}>
-        Эдуард
+        <span>Эдуард</span>
         <div className={scss.and}>&</div>
-        Наталья
+        <span>Наталья</span>
       </div>
     </div>
   );

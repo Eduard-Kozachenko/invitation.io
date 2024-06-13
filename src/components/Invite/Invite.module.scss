@@ -10,6 +10,9 @@
   font-size: 28px;
   font-family: Annabelle;
   margin-bottom: 20px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
 }
 
 .inviteText {
@@ -17,14 +20,31 @@
   font-size: 21px;
   text-align: center;
   margin-bottom: 20px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
 }
 
-.imgContainer {
-  width: 100%;
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 320px;
-  & > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .imgContainer {
+    // height: 320px;
+    // border-radius: 8px;
+    // overflow: hidden;
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  @media (min-width: 768px) {
+    height: 520px;
   }
 }

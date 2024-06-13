@@ -8,7 +8,7 @@
   height: 270px;
   opacity: 0.7;
   & > img {
-    border: 1px solid;
+    border: 1px solid #c9dfe9;
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -23,4 +23,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: Annabelle;
+  span {
+    // line-height: 60px;
+    font-family: Annabelle;
+  }
+}
+
+.and {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  font-size: 100px;
+  font-family: Annabelle;
 }
