@@ -16,11 +16,14 @@
   @media (min-width: 768px) {
     .title {
       text-align: center;
-      font-size: 21px;
+      font-size: 32px;
     }
     .day {
       text-align: center;
-      font-size: 21px;
+      font-size: 32px;
+      span {
+        font-size: 48px;
+      }
     }
   }
 }
@@ -33,36 +36,35 @@
 }
 
 .timeBlock {
+  width: 100%;
   text-align: center;
   background-color: #f9f9f9;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  margin: 0 10px;
-  padding: 10px;
+  margin: 0 5px;
+  padding: 5px;
   font-family: New Rome Trial;
   &:hover {
     transform: translateY(-5px);
   }
   span {
     display: block;
-    font-size: 25px;
-    font-weight: bold;
-    color: #333;
+    font-size: 28px;
+    font-weight: 700;
     &:nth-child(2) {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
-  @media (max-width: 768px) {
-    width: 100%;
-    border-radius: 4px;
-    margin: 0 5px;
-    padding: 5px;
+  @media (min-width: 768px) {
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 10px;
     span {
-      font-size: 28px;
+      font-size: 32px;
       font-weight: 700;
       &:nth-child(2) {
-        font-size: 12px;
+        font-size: 15px;
       }
     }
   }

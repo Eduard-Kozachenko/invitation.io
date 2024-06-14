@@ -5,8 +5,12 @@
 }
 
 .endText {
-  font-size: 28px;
+  font-size: 21px;
   text-align: center;
-  line-height: 38px;
+  line-height: 28px;
   font-family: Annabelle;
+  @media (min-width: 768px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
 }

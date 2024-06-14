@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import scss from "./Envelope.module.scss";
 import CardContent from "./CardContent/CardContent";
+import letterBackImg from "../assets/img/letter_back.png";
 
 const Envelope: React.FC = () => {
   const [isLetterOpen, setIsLetterOpen] = useState(false);

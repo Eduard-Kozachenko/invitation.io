@@ -1,7 +1,14 @@
 .wrapper {
-  height: 500px;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  height: 320px;
   width: 100%;
+  max-width: 720px;
   margin-bottom: 40px;
+  @media (min-width: 768px) {
+    height: 520px;
+    border: 20px solid rgba(0, 0, 0, 0.05);
+  }
 }
 
 .map {
