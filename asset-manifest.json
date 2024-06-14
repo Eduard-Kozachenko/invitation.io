@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/invitation.io/static/css/main.c31403d9.css",
+    "main.js": "/invitation.io/static/js/main.cf47d4a7.js",
+    "static/js/453.21be8fb1.chunk.js": "/invitation.io/static/js/453.21be8fb1.chunk.js",
+    "static/media/letter-header.png": "/invitation.io/static/media/letter-header.822e735a6204f5ad9d77.png",
+    "static/media/main.png": "/invitation.io/static/media/main.0d3e1ea43f54909c96fb.png",
+    "static/media/letter_back.jpg": "/invitation.io/static/media/letter_back.0d6f97b48a6e5a69e0de.jpg",
+    "static/media/letter.jpg": "/invitation.io/static/media/letter.242353894cba7111259d.jpg",
+    "static/media/NeolostPersonalUse-4nBPB.otf": "/invitation.io/static/media/NeolostPersonalUse-4nBPB.e974a13caccb5b9b2df2.otf",
+    "static/media/Annabelle Cyr.ttf": "/invitation.io/static/media/Annabelle Cyr.ac3a622104aae97d1961.ttf",
+    "static/media/TransformaScript_Trial-Regular.ttf": "/invitation.io/static/media/TransformaScript_Trial-Regular.d5693612e02c375793b0.ttf",
+    "static/media/ariston_normal.ttf": "/invitation.io/static/media/ariston_normal.76a1b72f567657bf3ec3.ttf",
+    "static/media/NewRomeTrial-Light.ttf": "/invitation.io/static/media/NewRomeTrial-Light.0c62efbd000b3bed8bb3.ttf",
+    "static/media/pershotravneva55-regular.ttf": "/invitation.io/static/media/pershotravneva55-regular.ca2a37e8e73ab9152682.ttf",
+    "index.html": "/invitation.io/index.html",
+    "main.c31403d9.css.map": "/invitation.io/static/css/main.c31403d9.css.map",
+    "main.cf47d4a7.js.map": "/invitation.io/static/js/main.cf47d4a7.js.map",
+    "453.21be8fb1.chunk.js.map": "/invitation.io/static/js/453.21be8fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c31403d9.css",
+    "static/js/main.cf47d4a7.js"
+  ]
+}
